@@ -1,0 +1,69 @@
+.sidebar {
+    flex: 2.5;
+    height: 100vh;
+}
+
+.sidebarWrapper {
+    padding: 20px;
+}
+
+.sidebarList {
+    padding: 0;
+    margin: 0;
+    list-style: node;
+}
+/*影付き*/
+.sidebarListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px -10px #628dbc;
+    border-radius: 92px;
+    transition: all 0.3s;
+}
+/*ホバー..カーソルが乗ってること*/
+.sidebarListItem:hover{
+    box-shadow: node;
+    transform: translateY(5px);
+}
+
+.sidebarIcon {
+    font-size: 35px !important;
+    margin-right: 10px;
+}
+
+.sidebarListItemText {
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+.sidebarHr{
+    margin: 20px 0;
+}
+
+.sidebarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.sidebarFriend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; 
+}
+
+.sidebarFriendImg {
+    width: 32px;
+    height: 32px;
+    object-fit: cover; /*良い感じの比率*/
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.sidebarFriendImg{
+    width: 32px;
+    height: 32px;
+}
