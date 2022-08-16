@@ -10,8 +10,8 @@ export default function Register() {
           <h3 className='loginLogo'>Tuatter</h3>
           <span className="loginDesc">それでも地球は、回っている。</span>
           </div>
-          <div className="loginRight"> 
-            <div className="loginBox">
+          <div className="loginRight"> {/*コメントアウト*/}
+            <div className="loginBox"> 
               <p className="loginMsg">新規登録はこちら</p>
               <input type="text" className='loginInput' placeholder='User Name' />
               <input type="text" className='loginInput' placeholder='Email' />
